@@ -7,9 +7,9 @@ import schedule
 def autoScan():
     #Make the request or close the connection
     try:
-        r = requests.get("http://ah-1089145-001.sdi.corp.bankofamerica.com:9999/api/auto_search",
+        r = requests.get("http://google.com",
                         headers={"username" : "automated",
-                                "apiKey" : "f6c69a9e71de18c12921",
+                                "apiKey" : "*******",
                                 "amount" : "75"
                         })
     except:
